@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Nunito+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: #EDEEF0;
+}
+
+.logo{
+    width: 3%;
+    height: 3%;
+}
+
+.nav-lin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#Real{
+    text-align: center;
+    font-size: 5em;
+    font-weight: 600%;
+    padding-top: 4%;
+}
+
+.nav-lin{
+   
+        font-size: 1.8em;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    
+}
+
+#home{
+    background-color: yellow;
+    height: 1000px;
+}
+#home{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    
+}
+
+p{
+    font-size: 2.0em;
+}
+
+#home div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+#home div article{
+    
+    color:black;
+   
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 6%;
+   
+   
+}
+
+
+.btn{
+   
+    cursor: pointer;
+    color:black;
+    font-size: 1.8em;
+    padding:20%;
+    margin-top: 50%;
+    letter-spacing: 0.1px;
+    border-radius: 20%;
+    
+    
+}
+
+#section{
+    background: #EDEEF0;
+    color:black;
+    font-size: 1.8em;
+    
+}
+
+#section{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    padding: 50px;
+}
+
+#section div{
+    display: flex;
+    justify-content: space-around;
+    margin:10px 0;
+    width: 100%;
+}
+
+#section h3,p,hr{
+    margin-bottom: 20px;
+}
+
+#section div article{
+    background: #EDEEF0;
+    color: rgba(146, 145, 145, 0.63);
+   
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border: black;
+    border-radius: 10px;
+}
+
+#Legal, #Adver,#Comm, #Comp{
+    color: black;
+}
+
+
+
+#footer{
+    background-color: black;
+    color:rgba(138, 136, 136, 0.658);
+    font-size: 1.8em;
+    padding-left: 10%;
+    padding-right: 70%; ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+    
+}
